@@ -35,7 +35,7 @@ no bugs
 
 * In your terminal:
 
-        ` $ git clone [](https://github.com/limobrian/News-Highlight.git)
+        ` $ git clone https://github.com/limobrian/News-Highlight.git
 
         ` $ cd new-highlight
 
@@ -58,7 +58,7 @@ no bugs
 ## Setting up the API Key
 
 To be able to gather article info from the News API you will need an API Key.
-Visit [](https://newsapi.org/) and register for an API key.
+Visit https://newsapi.org/ and register for an API key.
 In the root directory of the project folder create a file: start.sh
 Insert the following info into it:
 export NEWS_API_KEY=''
