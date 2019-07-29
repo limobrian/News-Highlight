@@ -4,7 +4,7 @@ class SourceTest(unittest.TestCase):
     '''
     Test of the class to test its behaviour
     '''
-    def setUp(self):
+    # def setUp(self):
         '''
         Setup method that runs before every test
         '''
