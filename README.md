@@ -35,7 +35,7 @@ no bugs
 
 * In your terminal:
 
-        ` $ git clone 
+        ` $ git clone [](https://github.com/limobrian/News-Highlight.git)
 
         ` $ cd new-highlight
 
