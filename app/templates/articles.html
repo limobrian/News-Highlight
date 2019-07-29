@@ -1,0 +1,15 @@
+{% extends 'base.html'%}
+{% block content %}
+{% for article in articles %}
+<h1>NEWS</h1>
+<div class="col-6 col-sm-3">
+    
+        <p class="text-center">
+            <a href="{{article.url}}">
+                <img src="{{ article.urlToImage }}" class="img-responsive"></a></p>
+        <p class="text-center">{{ article.description|truncate(100)}}</p>
+        <p class="text-center">published on {{ article.publishedAt|truncate(20)}}</p>
+        <a href="{{article.url}}" target="blank_" class="btn btn-info" role="button">website</a>
+</div>
+{% endfor %}
+{% endblock %}
